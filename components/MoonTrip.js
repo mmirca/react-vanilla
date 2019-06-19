@@ -1,5 +1,6 @@
 const MoonTrip = React.createClass({
   render: function () {
+    // We can use variables to store HTML fragments
     let pageContent;
     switch (this.props.step) {
       case 3:
